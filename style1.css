@@ -1,0 +1,54 @@
+.navbar{
+    height: 200px;
+    background-image: url(im1.jpg);
+    
+}
+.navbar-brand{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.lien{
+font-size: 30px;
+background-color: rgba(0, 0, 0, .3);
+color: yellowgreen;
+border: 1px solid yellowgreen;
+}
+.lien :hover{
+    color: beige;
+    
+}
+
+.offcanvas-body{
+    background-image: url(im9.jpg);
+    background-position: center, center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*
+.offcanvas-header{
+    background-color: yellowgreen;
+}
+
+.banner{
+    background-color: rgba(0, 0, 0, .5);
+    background-image: url(im4.jpg);
+    background-position: center, center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+.titre{
+    margin-top: 300px;
+    color: white;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.foot{
+    width: 1000px;
+}

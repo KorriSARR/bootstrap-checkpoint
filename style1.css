@@ -1,38 +1,31 @@
+/*custom navabar*/
 .navbar{
     height: 200px;
-    background-image: url(im1.jpg);
-    
+    background-image: url(images/im1.jpg);   
 }
 .navbar-brand{
     font-size: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.lien{
-font-size: 30px;
-background-color: rgba(0, 0, 0, .3);
-color: yellowgreen;
-border: 1px solid yellowgreen;
-}
-.lien :hover{
-    color: beige;
-    
+.fontnav{
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.offcanvas-body{
-    background-image: url(im9.jpg);
-    background-position: center, center; 
-    background-size: cover;
-    background-repeat: no-repeat;
+.nav-link{
+    color: blue !important;
 }
-*
-.offcanvas-header{
-    background-color: yellowgreen;
+.nav-link:hover{
+    background-color: aliceblue !important;
+    color: black !important;
+    transition: .3s;
 }
+
+/*custom section héros*/
 
 .banner{
     background-color: rgba(0, 0, 0, .5);
-    background-image: url(im4.jpg);
+    background-image: url(images/im4.jpg);
     background-position: center, center;
     background-attachment: fixed;
     background-size: cover;
@@ -45,10 +38,36 @@ border: 1px solid yellowgreen;
     color: white;
 }
 
+/*custom section menu*/
 .card{
     background-color: rgba(0, 0, 0, .3);
 }
+ .imgs{
+    height: 100px;
+ }
 
-.foot{
-    width: 1000px;
+ @media screen and (max-width: 768px) {
+    .row{
+        display: block;
+    }
+    .navbar{
+        
+    }
+}
+
+/*custom section contact*/
+
+@media screen and (min-width: 768px) {
+    .form-group{
+        width: 500px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .form-group{
+        
+    } 
+}
+
+html{
+    width: fit-content;
 }

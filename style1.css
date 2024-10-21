@@ -1,3 +1,7 @@
+/*custom body*/
+body{
+    background-color:#1c2331 ;
+}
 /*custom navabar*/
 .navbar{
     height: 200px;
@@ -13,16 +17,15 @@
 }
 
 .nav-link{
-    color: blue !important;
+    border-bottom: 1px solid transparent !important;
+    transition: padding-bottom .4 ease-in-out, border-color .3s ease !important;
 }
 .nav-link:hover{
-    background-color: aliceblue !important;
-    color: black !important;
-    transition: .3s;
+    padding-bottom: 20px !important;
+    border-bottom-color: gray !important;
+    color: aliceblue !important;
 }
-
 /*custom section héros*/
-
 .banner{
     background-color: rgba(0, 0, 0, .5);
     background-image: url(images/im4.jpg);
@@ -30,44 +33,43 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
-    
+    height: 800px;    
 }
 .titre{
     margin-top: 300px;
     color: white;
 }
-
 /*custom section menu*/
 .card{
     background-color: rgba(0, 0, 0, .3);
+    color: white;
 }
  .imgs{
     height: 100px;
  }
 
- @media screen and (max-width: 768px) {
-    .row{
-        display: block;
-    }
-    .navbar{
-        
-    }
-}
+/*custom a propos*/
 
 /*custom section contact*/
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 720px) {
     .form-group{
-        width: 500px;
+        width: 300px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .form-group{
+        width: 600px;
     }
 }
 @media screen and (min-width: 1200px) {
     .form-group{
-        
+      width: 900px;  
     } 
 }
-
-html{
-    width: fit-content;
+form{
+    color: white;
+}
+/* custom footer*/
+a{
+    text-decoration: none;
 }
